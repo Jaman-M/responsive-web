@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap min css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- icon style -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+     <!-- css    -->
+     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+        <header class="navigation sticky-top py-2 bg-light shadow">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand fw-bold" href="#">Osaka Convention Center</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="nav-link" href="#">Subscribe</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+           
+            
+
+        </header>
+        
+    
+    <main>
+         <!-- images slider -->
+         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/banner.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>The perfect venue for your next event</h3>
+                <p>Some representative placeholder content for the first slide.</p>
+                <a href="https://www.google.com/" class="btn btn-primary" role="button" >Book Now</a>
+                
+
+              
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/osaka conv (4).jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Marriage anniversary</h3>
+                <p>Here’s to lasting love! From still-newlyweds toasting with wine glasses they opened on their wedding day a year ago to busy parents scrambling</p>
+                <a href="https://www.google.com/" class="btn btn-primary" role="button" >Book Now</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/osaka conv (3).jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Decoration</h3>
+                <p class="">the activity of making something look more attractive by putting things on it or around it, or something that you use to do this</p>
+                <a href="https://www.google.com/" class="btn btn-primary" role="button" >Book Now</a>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/osaka conv (2).jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Third slide label</h3>
+                <p>Some representative placeholder content for the third slide.</p>
+                <a href="https://www.google.com/" class="btn btn-primary" role="button" >Book Now</a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- image slider end here -->
+
+        <!-- optional section start here -->
+        
+        <section class="new-web-design my-5">
+          <div class="container">
+            
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="py-5">
+                      <img class=" img-fluid" src="images/wedding.png" alt="">
+                  </div>
+              </div>
+                  <div class="col-md-6">
+                      <div class="pe-3 d-flex flex-column justify-content-center h-100">
+                          <h1 class="text-blue display-4 fw-bold">Every moment is precious </h1>
+                          <p class="fs-5 text-muted">t’s not uncommon for beliefs about religion to change over time, both as an individual and as a couple. Often, many couples may choose to get married in a non-religious ceremony, whether because of differing religious beliefs or no significant spiritual beliefs at all. As your commitment to each other grows, you may discover or return  This can be done through a convalidation ceremony.
+                            What Is a Convalidation Ceremony?.</p>
+                      </div>
+                  </div>
+                  
+              </div>
+              <!-- toast start here -->
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+              <!-- <img src="..." class="rounded me-2" alt="..."> -->
+              <i class="fas fa-gift"></i>
+              <strong class="me-auto">Offer</strong>
+              <small>11 mins ago</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+          <div class="toast-body">
+              20% off on next booking!
+          </div>
+      </div>
+  
+        <!-- toast end here -->
+          </div>
+      </section>
+
+
+        <!-- optional section end here -->
+
+        <!-- our package start here -->
+        <section >
+          <h1 class="text-center">Our Package</h1>
+          <div class="container  py-5">
+            <div class="row  ">
+              <div class="col-lg-3 mb-5 mb-lg-0">
+                <div class="bg-white p-5 rounded-lg ">
+                  <h1 class=" font-weight-bold ">$300</h1>
+                  <h3 font-weight-bold>Business fair</h3>
+                  <p>for most business event like book fair. cart fair.</p>
+                  <div class="custom-seperator  mx-auto bg-primary">
+
+                  </div>
+                  <ul class="list-unstyled  text-small text-left">
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      limited space access
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      Security facility
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      event support
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      Decoration design
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      per day bill
+                    </li>
+                  </ul>
+                  
+
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-light rounded-pill text-primary fw-bold" type="button">choose plan</button>
+                    
+                  </div>
+
+                </div>
+
+              </div>
+              <div class="col-lg-3 mb-5 mb-lg-0 ">
+                <div class="bg-white p-5 rounded-lg ">
+                  <h1 class=" font-weight-bold ">$500</h1>
+                  <h3 font-weight-bold>WeedigBasic</h3>
+                  <p>for weedings with basic plan and limited item</p>
+                  <div class="custom-seperator  mx-auto bg-primary">
+
+                  </div>
+                  <ul class="list-unstyled  text-small text-left">
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      Full space access
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      Food management
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      managent Support
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      Decoration design
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      billed as shift
+                    </li>
+                  </ul>
+                  
+
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-light rounded-pill text-primary fw-bold" type="button">choose plan</button>
+                    
+                  </div>
+                  <span class="badge badge-primary">Primary</span>
+
+                </div>
+
+              </div>
+              <!-- special design start -->
+              
+              <div class="col-lg-3 mb-5 mb-lg-0 ">
+                
+                
+                <div class="bg-primary text-light p-5 rounded-lg shadow rounded">
+                  
+                  
+                  <h1 class=" font-weight-bold ">$800</h1>
+                  <h3 font-weight-bold>weeding plus</h3>
+                  <p>for most business event like book fair.</p>
+                  <div class="custom-seperator  mx-auto bg-primary">
+
+                  </div>
+                  <ul class="list-unstyled  text-small text-left">
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      full space access
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      Security facility
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      event support
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      Decoration design
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      pay as bill
+                    </li>
+                  </ul>
+                  
+
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-light rounded-pill text-primary fw-bold" type="button">choose plan</button>
+                    
+                  </div>
+                  
+
+                </div>
+                
+                
+                
+              </div>
+              
+              
+              <!-- special design end -->
+              
+              <div class="col-lg-3 mb-5 mb-lg-0">
+                <div class="bg-white p-5 rounded-lg ">
+                  <h1 class=" font-weight-bold ">$1200</h1>
+                  <h3 font-weight-bold>Corporate event</h3>
+                  <p>for most corporate business events </p>
+                  <div class="custom-seperator  mx-auto bg-primary">
+
+                  </div>
+                  <ul class="list-unstyled  text-small text-left">
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      full space access
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      Decpration team
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      Buffet food
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      Decoration design
+                    </li>
+                    <li class="mb-2">
+                      <i class="fa fa-check mr-2 "></i>
+                      Pay as plan
+                    </li>
+                  </ul>
+                  
+
+                  <div class="d-grid gap-2">
+                    <button class="btn btn-light rounded-pill text-primary fw-bold" type="button">choose plan</button>
+                    
+                  </div>
+
+                </div>
+
+              </div>
+              
+
+            </div>
+
+          </div>
+        </section>
+
+        <!-- FAQ section start here -->
+        <section class="new-web-design my-5">
+          <h2 class="d-flex justify-content-center">Frequently Asked Question</h2>
+          <div class="container">
+            
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="pe-3 d-flex flex-column justify-content-center h-100">
+                          <!-- <h1 class="text-blue display-4 fw-bold">Enter a new age of web design</h1> -->
+                          <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                  <h4>What's the difference betweem event design and event planning?</h4>
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                  <h4>How early do we need to start planning an event</h4>
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                  <h4>What is your refund and cancellation policy?</h4>
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="py-5">
+                          <img class=" img-fluid" src="images/people.png" alt="">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+        <!-- FAQ section end here -->
+
+
+        <!-- extra important section for cntact start here -->
+
+        <section class="new-web-design my-5">
+          <div class="container">
+            <h1 class="d-flex justify-content-center fw-bold py-5">How do you contact with us</h1>
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="pe-3 d-flex flex-column justify-content-center h-100">
+                          <h3 class="text-blue display-5 fw-bold">About us</h3>
+                          <p class="fs-5 text-muted">It’s a nice place for enjoy campaign & party.
+                            You can arranged wedding party, Birthday party, Conference etc.</p>
+                            
+                            <h4>contact details</h4>
+                            
+                <div class="social-links">
+                    <ul>
+                      <li><i class="fas fa-phone-alt"></i> Mobile Number: +88017*****25 </li>
+                      <li><i class="fab fa-whatsapp-square"> </i> Whats app: +88017*****25 </li>
+                      <li><i class="fab fa-facebook-square"></i> Osaka_page</li>
+                      <li><i class="fab fa-instagram-square"></i> osaka123</li>
+                      <li><i class="fas fa-envelope-open-text"></i> osaka--1@gmail.com</li>
+                    </ul>
+                </div>
+                      </div>
+                  </div>
+                  <div class="col-md-6 justify-content-center align-items-center">
+                    <h2 class="justify-content-center fw-bold display-7">For Booking-fill the form</h2>
+                    
+                      <div class="py-5">
+                        <form class="row gy-2 gx-3 align-items-center">
+                          <div class="col-auto">
+                            <label class="visually-hidden" for="autoSizingInput">Name</label>
+                            <input type="text" class="form-control" id="autoSizingInput" placeholder="Name">
+                          </div>
+                          <div class="col-auto">
+                            <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+                            <div class="input-group">
+                              <div class="input-group-text">@</div>
+                              <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
+                            </div>
+                            
+                          </div>
+                          <div class="col-auto">
+                            <label class="visually-hidden" for="autoSizingSelect">Preference</label>
+                            <select class="form-select" id="autoSizingSelect">
+                              <option selected>Choose...</option>
+                              <option value="1">weading</option>
+                              <option value="2">Birthday</option>
+                              <option value="3">Another</option>
+                            </select>
+                          </div>
+                          <div class="col-auto">
+                            <div class="form-check">
+                              <input class="form-check-input" type="checkbox" id="autoSizingCheck">
+                              <label class="form-check-label" for="autoSizingCheck">
+                                Remember me
+                              </label>
+                            </div>
+                          </div>
+                          <div class="col-auto">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </div>
+                        </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+        <!-- extra important section for cntact end here -->
+        
+        
+    </main>
+    
+       
+    <footer>
+      <section class="new-web-design my-5  ">
+        <div class="container bg-dark ">
+            <div class="row">
+                <div class="col-md-6 d-flex py-5 flex-column justify-content-center align-items-center">
+                    <div class="pe-3 d-flex flex-column justify-content-center h-100">
+                      <small class="text-white ">&copy; Your Website 2022. All Rights Reserved.</small>
+                    </div>
+                </div>
+                <div class=" col-md-6 d-flex py-5 flex-column justify-content-center align-items-center">
+                  <h5 class="text-center text-white">Get the app now!</h5>
+                  <div>
+                      <li>
+                        <a href="https://www.apple.com/app-store/">
+                          <img src="images/app-store.png" alt="">
+                      </a>
+                      </li>
+                      <li>
+                        <a href="https://play.google.com/store/apps">
+                          <img src="images/google-play.png" alt="">
+                      </a>
+                      </li>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <!-- toast script -->
+        <script>
+          window.onload = (e) => {
+              let myToast = document.querySelector('.toast');
+              let bsToast = new bootstrap.Toast(myToast);
+              bsToast.show();
+          }
+      </script>
+</body>
+</html>
